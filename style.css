@@ -1,19 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0 px;
+}
+
 #cabecario {
-    background-color: #b6b5b5;
-    border: 0.5px solid rgb(13, 14, 14);
-    box-shadow: 0px 2px rgb(14, 15, 14);
+    background-color: #2581ac;
+    border: 0px solid rgb(13, 14, 14);
+    box-shadow: 0px 2px rgb(160, 160, 160);
     margin: -8px;
     padding: 5px 3px 15px 50px;
     display: flex;
     align-items: center;
+    white-space: nowrap;
+
+}
+
+#cabecario h1 {
+    padding: 0px 180px;
+    justify-items: center;
+    color: yellow;
 }
 
 #cabecario a {
-    padding: 5px 10px 15px 200px;
+    padding: 5px 10px 15px 70px;
+    align-items: right;
+    justify-content: end;
+    color: yellow;
 
 }
 
-#cabecario img {
+#cabecario a:hover {
+    color: rgb(255, 0, 0);
+}
+
+#foto {
     align-items: center;
-    padding: 10px
+    padding: 10px 40px 2px 100px;
+    float: right;
 }
