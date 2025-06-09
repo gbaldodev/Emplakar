@@ -25,7 +25,8 @@ iframe {
     padding: 0px 10rem 0rem 15rem;
     justify-items: center;
     color: rgb(250, 250, 86);
-
+    margin-left: auto;
+    margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -38,6 +39,7 @@ iframe {
     width: 100px;
     border-radius: 30%;
     display: inline;
+    margin-left: auto;
 
 }
 
@@ -87,25 +89,32 @@ iframe {
 }
 
 #article2 {
-    padding: 3rem;
+    padding: 2rem 3rem 1rem 3rem;
+    margin-left: 5rem;
     margin: 0rem;
     display: flex;
     background-color: rgb(182, 193, 216);
-    justify-content: center;
+    align-items: center;
     max-width: 100%;
     font-size: 20px;
+    flex-direction: row-reverse;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: right;
+    justify-content: center;
 }
 
 #article2 iframe {
-    padding: 1rem 1rem 0rem 8rem;
-    background-color: ;
+    padding: 2rem 4rem 0rem 1rem;
     float: right;
+    flex-wrap: nowrap;
+    position: static;
+
 
 }
 
 #article2 h2 {
     padding: 0rem 0rem 1rem 0rem;
+    align-items: ;
 }
 
 #contatos {
@@ -126,8 +135,10 @@ iframe {
 }
 
 #botaozap {
-    padding: 0rem 50rem;
-    max-width: 10%;
+    padding: 0rem;
+    max-width: 100%;
+    border: rgb(37, 216, 37) 1px solid;
+    height: 100%;
 }
 
 h2 {
