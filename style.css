@@ -9,12 +9,13 @@ iframe {
     width: 55rem;
     max-width: auto;
     max-height: auto;
+    margin: 2rem;
 }
 
 #cabecario {
-    background-color: #2083b1;
+    background-color: rgb(82, 122, 209);
     border-bottom: 4px solid rgb(168, 170, 170);
-    box-shadow: 0px 0px rgb(160, 160, 160);
+    box-shadow: 1px 0px rgb(160, 160, 160);
     margin: 0px;
     padding: 1rem 2rem 1.5rem 1.4rem;
     display: flex;
@@ -31,6 +32,7 @@ iframe {
     margin-right: auto;
     font-family: "Krona One";
     text-decoration: none;
+
 }
 
 #cabecario a {
@@ -43,6 +45,7 @@ iframe {
     border-radius: 30%;
     display: inline;
     margin-left: auto;
+
 
 }
 
@@ -66,8 +69,8 @@ iframe {
     max-width: 100%;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
+    border-bottom: 4px solid rgb(168, 170, 170);
+    box-shadow: 1px 0px rgb(160, 160, 160);
 }
 
 #article1 h2 {
@@ -83,12 +86,13 @@ iframe {
 }
 
 #foto1 {
-    border-radius: 10%;
+    border-radius: ;
     height: 100%;
     position: static;
     display: flex;
-    border: 2px solid rgb(185, 182, 182);
+    border: 1px solid rgb(185, 182, 182);
     flex-direction: row-reverse;
+    box-shadow: 2px 2px rgb(182, 193, 216);
 }
 
 #article2 {
@@ -96,7 +100,8 @@ iframe {
     margin-left: 5rem;
     margin: 0rem;
     display: flex;
-    background-color: rgb(182, 193, 216);
+    color: aliceblue;
+    background-color: rgb(82, 122, 209);
     align-items: center;
     max-width: 100%;
     font-size: 20px;
@@ -104,6 +109,8 @@ iframe {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: right;
     justify-content: center;
+    border-bottom: 4px solid rgb(168, 170, 170);
+    box-shadow: 1px 0px rgb(160, 160, 160);
 }
 
 #article2 iframe {
@@ -121,39 +128,47 @@ iframe {
 }
 
 #contatos {
-    padding: 3rem;
+    padding: 3rem 0rem 7rem 2rem;
     margin: 0rem;
-    display: center;
+    display: row;
+    align-items: center;
+    text-align: center;
     background-color: rgb(182, 193, 216);
-    justify-content: center;
-
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 100%;
+    border-bottom: 4px solid rgb(168, 170, 170);
+    box-shadow: 1px 0px rgb(160, 160, 160);
 }
 
 #contatos h2 {
     position: static;
-    color: rgb(88, 88, 247)
+    color: rgb(88, 88, 247);
+    align-content: center;
 }
 
 #botaozap {
     padding: 0rem;
-    max-width: 100%;
+    max-width: 10%;
     border: rgb(37, 216, 37) 1px solid;
     height: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
 }
 
 h2 {
-    color: rgb(88, 88, 247);
+    color: rgb(219, 235, 0);
 }
 
 #footer {
     padding: 5rem 2rem 5rem 0rem;
     margin: 0rem;
     display: flex;
-    background-color: rgb(182, 193, 216);
+    background-color: rgb(82, 122, 209);
     justify-content: center;
+    color: aliceblue;
     align-items: center;
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -164,11 +179,14 @@ h2 {
 #footer h2 {
     font-size: 20px;
     position: static;
-    color: black;
+    color: rgb(255, 253, 253);
     padding: 2rem;
+    display: flex;
 }
 
 #footer a {
-    padding: 0.4rem;
+    padding: 2rem 0rem 2rem 0rem;
     text-decoration: none;
+    justify-content: center;
+    color: rgb(219, 235, 0);
 }
