@@ -185,7 +185,7 @@ h2 {
 }
 
 #footer a {
-    padding: 2rem 0rem 2rem 0rem;
+    padding: 2rem 0rem 2rem 0.8rem;
     text-decoration: none;
     justify-content: center;
     color: rgb(219, 235, 0);
