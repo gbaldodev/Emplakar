@@ -1,12 +1,14 @@
 * {
     padding: 0px;
     margin: 0px;
-    overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 iframe {
-    height: 15rem;
-    width: 35rem;
+    height: 19rem;
+    width: 55rem;
+    max-width: auto;
+    max-height: auto;
 }
 
 #cabecario {
@@ -27,14 +29,15 @@ iframe {
     color: rgb(250, 250, 86);
     margin-left: auto;
     margin-right: auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Krona One";
+    text-decoration: none;
 }
 
 #cabecario a {
     padding: 5px 10px 0px 7px;
     color: rgba(255, 255, 0, 0.877);
     font-size: 20px;
-    style: none;
+    text-decoration: wavy;
     background-size: 20px;
     width: 100px;
     border-radius: 30%;
@@ -51,7 +54,7 @@ iframe {
     align-items: center;
     padding: 10px 40px 2px 100px;
     float: right;
-    border-radius: 0%;
+    border-radius: 2rem;
 }
 
 #article1 {
@@ -146,7 +149,7 @@ h2 {
 }
 
 #footer {
-    padding: 3rem;
+    padding: 5rem 2rem 5rem 0rem;
     margin: 0rem;
     display: flex;
     background-color: rgb(182, 193, 216);
@@ -163,6 +166,9 @@ h2 {
     position: static;
     color: black;
     padding: 2rem;
+}
 
-
+#footer a {
+    padding: 0.4rem;
+    text-decoration: none;
 }
